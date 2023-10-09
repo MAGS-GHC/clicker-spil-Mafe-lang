@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 #Rainbow {
 opacity: 1;
 margin-top: 50px;
@@ -17,6 +10,41 @@ background-position: center center;
 border-radius: 200px;
 }
 
+@media screen and (max-width: 768px) {
+
+  #Rainbow {
+    opacity: 1;
+    margin-top: 50px;
+    margin-left: 257px;
+    font-style: inherit;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:  url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
+    background-position: center center;
+    border-radius: 120px;
+    }
+    
+}
+@media screen and (max-width: 1600px) {
+
+  #Rainbow {
+    opacity: 1;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-style: inherit;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:  url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
+    background-position: center center;
+    border-radius: 120px;
+    }
+    
+}
+
+
+
+
+
 #Shop {
     opacity: 0.77;
     margin-top: -883px;
@@ -25,6 +53,21 @@ border-radius: 200px;
     font-variant: small-caps;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
+
+  }
+
+  @media screen and (max-width: 1600px) {
+    #Shop {
+      opacity: 0.77;
+      margin-top: -883px;
+      margin-left: 1550px;
+      font-style: inherit;
+      font-variant: small-caps;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+  
+    }
+
 
   }
 
@@ -39,7 +82,21 @@ border-radius: 200px;
 color: rgba(0, 195, 255, 0)
 
   }
-    
+  @media screen and (max-width: 1601px) {
+    #Bank
+    {
+  opacity: 1;
+  margin-top: 627px;
+  margin-left: 1210px;
+  background-image: url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
+  background-size: 3000px 550px;
+  border-radius: 200px;
+  color: rgba(0, 195, 255, 0)
+  
+    }
+
+
+  }
 
   #Bottom {
   margin-top: 785px;
@@ -73,6 +130,28 @@ color: rgba(0, 195, 255, 0)
   }
 
 
+@media screen and (max-width: 1600px) {
+
+#Vertigo {
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+  white-space: nowrap;
+  margin-top: -753px;
+  margin-left: 1442px;
+  opacity: 1;
+  
+
+background-image: url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
+background-size: 500px 600;
+border-radius: 200px;
+color: rgba(0, 77, 100, 0)
+}
+
+
+
+
+}
+
   
   
   body {
@@ -91,3 +170,25 @@ color: rgba(0, 195, 255, 0)
     url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f2f0db-6467-4796-9f54-3305520828b4/de9twyr-904d69f9-935f-4348-9a83-313e3f317285.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ZjJmMGRiLTY0NjctNDc5Ni05ZjU0LTMzMDU1MjA4MjhiNFwvZGU5dHd5ci05MDRkNjlmOS05MzVmLTQzNDgtOWE4My0zMTNlM2YzMTcyODUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GgpOxMuMKVdgShRwQwdkJdIDa6QjESi06gBBsYAjTLU);
 }
 
+@media screen and (max-width: 1601px) {
+
+  body {
+  height: 100vh;
+  background-position: 1475px 0px, 0px 0px, 1600px 300px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-color: rgb(7, 117, 180);
+  border-radius: 300px;
+  
+
+
+  background-image:
+  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f361c20-87a0-47f4-9217-383117f5371c/d6e81ng-525fd8de-3a75-4cd7-b78d-3a98f0cafe58.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmMzYxYzIwLTg3YTAtNDdmNC05MjE3LTM4MzExN2Y1MzcxY1wvZDZlODFuZy01MjVmZDhkZS0zYTc1LTRjZDctYjc4ZC0zYTk4ZjBjYWZlNTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8ZMKjhaIhE49wWBd6QGnqBK-_T0blvM3CEjsHUA5THw),
+  url(https://thedailyguardian.com/wp-content/uploads/2022/11/rainbow.jpg),
+  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f2f0db-6467-4796-9f54-3305520828b4/de9twyr-904d69f9-935f);
+
+  }
+
+
+
+
+}
