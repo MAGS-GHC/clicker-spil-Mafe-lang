@@ -1,7 +1,7 @@
 #Rainbow {
 opacity: 1;
 margin-top: 50px;
-margin-left: 700px;
+margin-left: 100px;
 font-style: inherit;
 font-variant: small-caps;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,19 +30,28 @@ border-radius: 200px;
   #Rainbow {
     opacity: 1;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 220px;
     font-style: inherit;
     font-variant: small-caps;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:  url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
-    background-position: center center;
     border-radius: 120px;
     }
     
 }
 
+@media screen and (max-width: 1600px){
+#Shop2 {
+margin-top: -966px;
+margin-left: 1470px;
+font-style: inherit;
+font-variant: small-caps;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
-
+}
+}
 
 
 #Shop {
@@ -54,18 +63,19 @@ border-radius: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 
+
   }
 
   @media screen and (max-width: 1600px) {
     #Shop {
       opacity: 0.77;
-      margin-top: -883px;
-      margin-left: 1550px;
+      margin-top: -853px;
+      margin-left: 1600px;
       font-style: inherit;
       font-variant: small-caps;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-  
+    visibility: hidden;
     }
 
 
@@ -73,6 +83,7 @@ border-radius: 200px;
 
   #Bank
   {
+  
 opacity: 1;
 margin-top: 627px;
 margin-left: 1610px;
@@ -85,13 +96,15 @@ color: rgba(0, 195, 255, 0)
   @media screen and (max-width: 1601px) {
     #Bank
     {
+  visibility: hidden;
   opacity: 1;
-  margin-top: 627px;
-  margin-left: 1210px;
+  margin-top: 599px;
+  margin-left: 1110px;
   background-image: url(https://www.svg.com/img/gallery/theres-a-nyan-cat-game-coming-to-switch-next-week/intro-1574361360.jpg);
   background-size: 3000px 550px;
   border-radius: 200px;
   color: rgba(0, 195, 255, 0)
+  
   
     }
 
@@ -111,8 +124,8 @@ color: rgba(0, 195, 255, 0)
 
   #Vertigo {
 
-             writing-mode: vertical-lr; /* Vertical text, left to right */
-            text-orientation: upright; /* Set text orientation */
+             writing-mode: vertical-lr; 
+            text-orientation: upright; 
             white-space: nowrap;
             margin-top: -400px;
             margin-left: 1572px;
@@ -129,6 +142,9 @@ color: rgba(0, 195, 255, 0)
 
   }
 
+ 
+
+
 
 @media screen and (max-width: 1600px) {
 
@@ -136,8 +152,8 @@ color: rgba(0, 195, 255, 0)
   writing-mode: vertical-lr; 
   text-orientation: upright; 
   white-space: nowrap;
-  margin-top: -753px;
-  margin-left: 1442px;
+  margin-top: -953px;
+  margin-left: 1322px;
   opacity: 1;
   
 
@@ -170,25 +186,125 @@ color: rgba(0, 77, 100, 0)
     url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f2f0db-6467-4796-9f54-3305520828b4/de9twyr-904d69f9-935f-4348-9a83-313e3f317285.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ZjJmMGRiLTY0NjctNDc5Ni05ZjU0LTMzMDU1MjA4MjhiNFwvZGU5dHd5ci05MDRkNjlmOS05MzVmLTQzNDgtOWE4My0zMTNlM2YzMTcyODUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GgpOxMuMKVdgShRwQwdkJdIDa6QjESi06gBBsYAjTLU);
 }
 
+@media screen and (max-width: 1601px) { 
+  #Upgrades {
+margin-top: 825px;
+margin-left: 1370px;
+font-style: inherit;
+font-variant: small-caps;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white; }
+}
+
+
+@media screen and (max-width: 1601px) {
+  #pic{
+    background: url(https://p1.hiclipart.com/preview/128/432/919/mnm-s-m-m-512-icon-png-icon.jpg);
+    
+
+  }
+}
+
+
+@media screen and (max-width: 1601px) {
+#cookieKnap {
+  margin-top: -550px;
+  margin-left: 655px;
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  background: url(https://p7.hiclipart.com/preview/299/520/2/cookie-clicker-chocolate-chip-cookie-thin-mints-clip-art-cookies.jpg);
+  cursor: pointer;
+  z-index: 10000;
+  border-radius: 128px;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: 220px 246px;
+  background-position: -20px ;
+}
+}
+
+@media screen and (max-width: 1601px) {
+#cookiesPrSec {
+    margin-top: -26px;
+    margin-left: 650px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-size: larger;
+    font-style:inherit;
+    font-kerning: auto;
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/56/93/04579f4940636ff.jpg);
+    border-radius: 120px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    z-index: 2;
+    opacity: 0.5;
+
+}
+
+}
+
+
+
 @media screen and (max-width: 1601px) {
 
-  body {
-  height: 100vh;
-  background-position: 1475px 0px, 0px 0px, 1600px 300px;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-color: rgb(7, 117, 180);
-  border-radius: 300px;
-  
+  #cookiesDisplay {
+    margin-top: -650px;
+    margin-left: 685px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-size: larger;
+    font-style:inherit;
+    font-kerning: auto;
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/56/93/04579f4940636ff.jpg);
+    border-radius: 120px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    z-index: 2;
 
 
-  background-image:
-  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f361c20-87a0-47f4-9217-383117f5371c/d6e81ng-525fd8de-3a75-4cd7-b78d-3a98f0cafe58.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmMzYxYzIwLTg3YTAtNDdmNC05MjE3LTM4MzExN2Y1MzcxY1wvZDZlODFuZy01MjVmZDhkZS0zYTc1LTRjZDctYjc4ZC0zYTk4ZjBjYWZlNTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8ZMKjhaIhE49wWBd6QGnqBK-_T0blvM3CEjsHUA5THw),
-  url(https://thedailyguardian.com/wp-content/uploads/2022/11/rainbow.jpg),
-  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f2f0db-6467-4796-9f54-3305520828b4/de9twyr-904d69f9-935f);
+
+
+
+  }
+
 
   }
 
 
 
 
+
+
+
+@media screen and (max-width: 1601px) {
+
+  body {
+  height: 100vh;
+  background-position: 1365px 0px, 1365px 500px, 0px 0px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-color: rgb(7, 117, 180);
+  z-index: -1;
+  border-radius: 80px;
+  
+
+
+
+  background-image:
+  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f361c20-87a0-47f4-9217-383117f5371c/d6e81ng-525fd8de-3a75-4cd7-b78d-3a98f0cafe58.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmMzYxYzIwLTg3YTAtNDdmNC05MjE3LTM4MzExN2Y1MzcxY1wvZDZlODFuZy01MjVmZDhkZS0zYTc1LTRjZDctYjc4ZC0zYTk4ZjBjYWZlNTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8ZMKjhaIhE49wWBd6QGnqBK-_T0blvM3CEjsHUA5THw),
+  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f2f0db-6467-4796-9f54-3305520828b4/de9twyr-904d69f9-935f-4348-9a83-313e3f317285.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ZjJmMGRiLTY0NjctNDc5Ni05ZjU0LTMzMDU1MjA4MjhiNFwvZGU5dHd5ci05MDRkNjlmOS05MzVmLTQzNDgtOWE4My0zMTNlM2YzMTcyODUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GgpOxMuMKVdgShRwQwdkJdIDa6QjESi06gBBsYAjTLU),
+  url(https://thedailyguardian.com/wp-content/uploads/2022/11/rainbow.jpg);
+
+  }
+
+
+
+
+
+
 }
+
