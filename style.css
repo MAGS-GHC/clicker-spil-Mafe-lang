@@ -138,7 +138,7 @@ color: rgba(0, 195, 255, 0)
    color: rgba(0, 77, 100, 0)
 
 
-            
+  
 
   }
 
@@ -197,13 +197,6 @@ color: white; }
 }
 
 
-@media screen and (max-width: 1601px) {
-  #pic{
-    background: url(https://p1.hiclipart.com/preview/128/432/919/mnm-s-m-m-512-icon-png-icon.jpg);
-    
-
-  }
-}
 
 
 @media screen and (max-width: 1601px) {
@@ -224,7 +217,114 @@ color: white; }
   background-size: 220px 246px;
   background-position: -20px ;
 }
+@media screen and (max-width: 1601px) {
+#multiCost {
+margin-top: -10px;
+margin-left: 1475px;
+position: absolute;
+font-style: inherit;
+font-variant: small-caps;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white; }
 }
+}
+
+
+@media screen and (max-width: 1601px) {
+  #mushroomUpgrade {
+  margin-top: 0px;
+  margin-left: 1375px;
+  position: absolute;
+  background: url(https://cp.cute-cursors.com/uploads/cursors/364/364-preview.png);
+  z-index: 10000;
+  border-radius: 70px;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: -3px ;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 1601px){
+#mogmPrice {
+margin-top: -618px;
+margin-left: 1455px;
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white; 
+font-size: small;
+}
+}
+
+@media screen and (max-width: 1601px) {
+#mogmBuy {
+margin-top: -590px;
+margin-left: 1520px;
+position: absolute;
+font-family:monospace;
+color: rgb(255, 187, 0); 
+font-size:small;
+background: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/56/93/04579f4940636ff.jpg)
+}
+}
+
+@media screen and (max-width: 1601px) {
+#mogmX {
+  margin-top: -625px;
+  margin-left: 1600px;
+  position: absolute;
+  font-family:monospace;
+  color: rgb(255, 187, 0); 
+  font-size:large;
+
+}
+}
+
+@media screen and (max-width: 1601px) {
+#doubleClick {
+margin-top: 35px;
+margin-left: 1477px;
+position: absolute;
+font-style: inherit;
+font-variant: small-caps;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white; }
+
+
+
+@media screen and (max-width: 1601px) {
+#mogmKnap {
+  margin-top: -650px;
+  margin-left: 1370px;
+  position: absolute;
+  background: url(https://p1.hiclipart.com/preview/128/432/919/mnm-s-m-m-512-icon-png-icon.jpg);
+  border: none;
+  border-radius: 1128px;
+  width: 80px;
+  height: 80px;
+  z-index: 10000;
+  background-size: 130px 146px;
+  background-position: -23px;
+
+
+}
+
+
+
+}
+
+
+
 
 @media screen and (max-width: 1601px) {
 #cookiesPrSec {
@@ -265,15 +365,9 @@ color: white; }
     background-repeat: no-repeat;
     background-size: 120px;
     z-index: 2;
-
-
-
-
-
   }
 
-
-  }
+}
 
 
 
