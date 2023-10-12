@@ -54,6 +54,12 @@ color: white;
 }
 
 
+
+
+
+
+
+
 #Shop {
     opacity: 0.77;
     margin-top: -883px;
@@ -299,7 +305,7 @@ font-style: inherit;
 font-variant: small-caps;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: white; }
-
+}
 
 
 @media screen and (max-width: 1601px) {
@@ -315,13 +321,74 @@ color: white; }
   z-index: 10000;
   background-size: 130px 146px;
   background-position: -23px;
+}
 
+}
+
+@media screen and (max-width: 1600px) {
+#container {
+display: none;
+
+}
+
+}
+
+
+@media screen and (max-width: 1600px) {
+#container.show {
+display: block;
+
+}
+}
+
+
+@media screen and (max-width: 1600px) {
+
+  #achievementText {
+  
+    margin-top: -265px;
+    margin-left: 690px;
+    position: absolute;
+    z-index: 10000;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-size: x-small;
+    font-style:inherit;
+  
+  }
+  
+  
+  }
+
+@media screen and (max-width: 1601px) {
+
+  #achievements {
+
+    margin-top: -300px;
+    margin-left: 640px;
+    position: absolute;
+    background: url(https://w7.pngwing.com/pngs/255/45/png-transparent-achievement-unlocked-logo-achievement-xbox-360-video-game-world-of-warcraft-overwatch-world-of-warcraft.png);
+    width: 220px;
+    height: 63px;
+    z-index: 100;
+    background-size: 280px 145px;
+    background-position: -32px;
+    border-radius: 100px;
+
+  }
 
 }
 
 
 
-}
+
+
+
+
+
+
+
 
 
 

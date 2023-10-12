@@ -27,6 +27,17 @@
    const mushroomUpgrade = document.getElementById('mushroomUpgrade');
 
 
+   const container = document.getElementById('container');
+   const containerDisplayTime = 5000;
+   const achievementText = document.getElementById('achievementText');
+   const achievements = document.getElementById('achievements');
+
+
+
+
+
+
+
 
    function multiClickFunction() {
 
@@ -70,6 +81,48 @@ mushroomUpgrade.addEventListener('click', multiClickFunction);
 
 
 // Timing events
+
+
+cookieKnap.addEventListener('click', showOff);
+cookieKnap.addEventListener('click', removeShowOff);
+cookieKnap.addEventListener('click', showOffTwo);
+cookieKnap.addEventListener('click', removeShowOffTwo);
+
+
+function showOff() 
+{
+    if (count >= 1000){
+    container.classList.add('show');
+}
+}
+
+function removeShowOff () {
+    if (count >= 1100)
+    container.classList.remove('show');
+}
+
+function showOffTwo () {
+    if (amountNumber >= 10) {
+        container.classList.add('show');
+        achievementText.textContent = "M&M Dude"
+
+
+    }
+
+}
+
+function removeShowOffTwo () {
+    if (amountNumber >= 11)
+    {
+        container.classList.remove('show')
+
+    }
+
+}
+
+
+
+
 
 
 
